@@ -2,7 +2,7 @@ import { useEffect, useState, useMemo, useRef } from 'react';
 import axios from 'axios';
 import * as XLSX from 'xlsx';
 
-const API_BASE = 'http://localhost:8080';
+const API_BASE = 'https://soufpro.onrender.com';
 
 const fields = [
   { label: 'رقم', key: 'number', required: true, minWidth: 100 },
